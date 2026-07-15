@@ -1,21 +1,21 @@
 # Raspberry Pi Pico Projects
 
-A collection of my Raspberry Pi Pico and Pico W projects using MicroPython, sensors, robotics, and embedded systems.
+A collection of my Raspberry Pi Pico and Pico W projects using MicroPython, including sensors, robotics, Wi-Fi, and embedded systems.
 
 ## About
 
-This repository contains my Raspberry Pi Pico projects as I learn MicroPython, electronics, and embedded systems. It is used to track my progress, experiment with hardware, and build larger projects using microcontrollers.
+This repository contains my Raspberry Pi Pico projects created using MicroPython and Arduino Lab for MicroPython. It is used to track my progress, experiment with microcontrollers, and build projects using sensors, motors, and other hardware components.
 
 ## Folder Structure
 
 ```text
 pi-pico-projects/
 │
-├── basics/              # GPIO, PWM, ADC, and basic experiments
+├── basics/              # GPIO, PWM, ADC, and MicroPython experiments
 ├── sensors/             # Sensor-based projects
 ├── displays/            # LCD and display projects
+├── robots/              # Robot projects using motors and sensors
 ├── wifi/                # Wi-Fi and IoT projects
-├── robots/              # Robot projects and autonomous systems
 ├── integrated-projects/ # Projects combining multiple components
 └── README.md
 ```
@@ -28,45 +28,45 @@ pi-pico-projects/
 - PWM
 - ADC
 - Displays
+- Motor control
+- Robotics
 - Wi-Fi communication
 - IoT projects
-- Robotics
-- Motor control
 - Embedded systems
 
 ## Hardware
 
 - Raspberry Pi Pico
 - Raspberry Pi Pico W
+- Sensors
+- Motors
 - Motor driver boards
 - Robot chassis
-- Sensors
-- Displays
-- Motors
+- LCD displays
 - Other electronic components
 
 ## Tools
 
 - Language: MicroPython
-- Editor: Visual Studio Code
-- Hardware Platform: Raspberry Pi Pico
+- Editor/IDE: Arduino Lab for MicroPython
+- Hardware Platform: Raspberry Pi Pico / Pico W
 
 ## Goals
 
 - Improve embedded programming skills
-- Learn MicroPython and hardware integration
-- Build more advanced robotics projects
+- Learn MicroPython
+- Build projects using sensors and motors
+- Create more advanced robotics systems
 - Explore IoT and wireless communication
-- Understand how software controls hardware
 
 ## How to Run
 
 1. Install MicroPython on the Pico.
-2. Upload the required `.py` files.
-3. Install any required libraries.
+2. Open the project in Arduino Lab for MicroPython or another MicroPython editor.
+3. Upload the required `.py` files.
 4. Connect the hardware components.
 5. Run the main program.
 
 ## Progress
 
-This repository will continue to grow as I create more Raspberry Pi Pico projects and explore embedded systems.
+This repository will continue to grow as I create more Raspberry Pi Pico projects and explore MicroPython and embedded systems.
