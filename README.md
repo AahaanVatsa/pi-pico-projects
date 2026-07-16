@@ -80,7 +80,6 @@ For Wi-Fi robot projects:
 5. Use the controls to send commands to the robot.
 
 Control Interface:
-Control Interface:
 - [Wi-Fi Robot Dashboard](https://moonpreneurcode.github.io/WiFi-Controlled-Robot-Dashboard-2/)
 
 ### Bluetooth Controlled Robots
@@ -92,6 +91,5 @@ For Bluetooth robot projects:
 3. Open the control interface.
 4. Send commands to the robot.
 
-Control Interface:
 Control Interface:
 - [Bluetooth Robot Dashboard](https://moonpreneurcode.github.io/BLE-Controlled-Robot-Dashboard-3/)
