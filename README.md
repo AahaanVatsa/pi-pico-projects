@@ -16,6 +16,7 @@ pi-pico-projects/
 ├── displays/            # LCD and display projects
 ├── robots/              # Robot projects using motors and sensors
 ├── wifi/                # Wi-Fi and IoT projects
+├── custom-modules/      # Reusable MicroPython modules
 ├── integrated-projects/ # Projects combining multiple components
 └── README.md
 ```
