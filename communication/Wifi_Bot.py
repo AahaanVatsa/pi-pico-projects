@@ -3,8 +3,8 @@ import network
 import motion
 from wifi_connection import RobotServer
 
-WIFI_NAME = "Barsana_2"
-WIFI_PASSWORD = "Co99ect2sa9"
+WIFI_NAME = "URWIFINAME"
+WIFI_PASSWORD = "URWIFIPWD"
 
 motion.init()
 motion.stop()
