@@ -89,7 +89,7 @@ For Bluetooth robot projects:
 1. Upload the robot code and required modules.
 2. Connect to robot using Bluetooth.
 3. Open the control interface.
-4. Send commands to the robot.
+4. Use the controls to send commands to the robot.
 
 Control Interface:
 - [Bluetooth Robot Dashboard](https://moonpreneurcode.github.io/BLE-Controlled-Robot-Dashboard-3/)
