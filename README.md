@@ -43,6 +43,7 @@ pi-pico-projects/
 - Motor driver boards
 - Robot chassis
 - LCD displays
+- Servo motors
 - Other electronic components
 
 ## Tools
@@ -61,12 +62,36 @@ pi-pico-projects/
 
 ## How to Run
 
-1. Install MicroPython on the Pico.
-2. Open the project in Arduino Lab for MicroPython or another MicroPython editor.
-3. Upload the required `.py` files.
-4. Connect the hardware components.
-5. Run the main program.
+### General Setup
 
-## Progress
+1. Install MicroPython on the Raspberry Pi Pico.
+2. Upload the required `.py` files to the Pico.
+3. Upload any required custom modules from the `modules/` folder.
+4. Run the main program.
 
-This repository will continue to grow as I create more Raspberry Pi Pico projects and explore MicroPython and embedded systems.
+### Wi-Fi Controlled Robots
+
+For Wi-Fi robot projects:
+
+1. Upload the robot code and required modules.
+2. Connect the Raspberry Pi Pico W to Wi-Fi.
+3. Open the control webpage in a browser.
+4. Enter robot's IP Address.
+5. Use the controls to send commands to the robot.
+
+Control Interface:
+Control Interface:
+- [Wi-Fi Robot Dashboard](https://moonpreneurcode.github.io/WiFi-Controlled-Robot-Dashboard-2/)
+
+### Bluetooth Controlled Robots
+
+For Bluetooth robot projects:
+
+1. Upload the robot code and required modules.
+2. Connect to robot using Bluetooth.
+3. Open the control interface.
+4. Send commands to the robot.
+
+Control Interface:
+Control Interface:
+- [Bluetooth Robot Dashboard](https://moonpreneurcode.github.io/BLE-Controlled-Robot-Dashboard-3/)
