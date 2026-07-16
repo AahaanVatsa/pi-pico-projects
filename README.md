@@ -11,13 +11,12 @@ This repository contains my Raspberry Pi Pico projects created using MicroPython
 ```text
 pi-pico-projects/
 │
-├── basics/              # GPIO, PWM, ADC, and MicroPython experiments
-├── sensors/             # Sensor-based projects
-├── displays/            # LCD and display projects
-├── robots/              # Robot projects using motors and sensors
+├── basics/              # Basic MicroPython and hardware experiments
+├── sensors/             # Individual sensor readings and tests
+├── robots/              # Robot projects using motors, chassis, and sensors
 ├── wifi/                # Wi-Fi and IoT projects
-├── custom-modules/      # Reusable MicroPython modules
-├── integrated-projects/ # Projects combining multiple components
+├── data-handling/       # CSV files, logging, and file processing
+├── modules/             # Reusable custom MicroPython modules
 └── README.md
 ```
 
