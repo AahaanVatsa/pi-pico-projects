@@ -49,7 +49,8 @@ pi-pico-projects/
 ## Tools
 
 - Language: MicroPython
-- Editor/IDE: Arduino Lab for MicroPython
+- IDE: Arduino Lab for MicroPython
+- Editor: Visual Studio Code / Arduino Lab for MicroPython
 - Hardware Platform: Raspberry Pi Pico / Pico W
 
 ## Goals
