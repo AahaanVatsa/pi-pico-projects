@@ -102,3 +102,8 @@ Control Interface:
 * If you change the hardware configuration, update the corresponding pins and settings in the code.
 * Custom modules in the `modules/` folder can also be modified or replaced with compatible implementations when needed.
 
+## Progress
+
+This repository will continue to grow as I build more Raspberry Pi Pico projects, explore new sensors and communication methods, and develop increasingly complex embedded systems and robotics projects.
+
+
