@@ -94,3 +94,11 @@ For Bluetooth robot projects:
 
 Control Interface:
 - [Bluetooth Robot Dashboard](https://moonpreneurcode.github.io/BLE-Controlled-Robot-Dashboard-3/)
+
+## Notes
+
+* The hardware connections used in these projects can be changed to fit your setup.
+* You do not necessarily need to use the exact same pins, sensors, modules, or other hardware shown in the code.
+* If you change the hardware configuration, update the corresponding pins and settings in the code.
+* Custom modules in the `modules/` folder can also be modified or replaced with compatible implementations when needed.
+
