@@ -101,6 +101,8 @@ Control Interface:
 * You do not necessarily need to use the exact same pins, sensors, modules, or other hardware shown in the code.
 * If you change the hardware configuration, update the corresponding pins and settings in the code.
 * Custom modules in the `modules/` folder can also be modified or replaced with compatible implementations when needed.
+* Some projects were created using Wokwi for circuit simulation. You can use Wokwi to simulate and build compatible circuits without physical hardware.
+
 
 ## Progress
 
