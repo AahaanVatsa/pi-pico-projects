@@ -1,4 +1,4 @@
-#Import modules and functions
+#Import necessary modules and functions
 from machine import Pin, time_pulse_us, PWM
 from time import sleep, sleep_us
 
