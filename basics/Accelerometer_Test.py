@@ -1,13 +1,13 @@
-#Import necessary modules
+# Import necessary modules and functions
 from imu import MPU6050
 from time import sleep
 from machine import Pin, I2C
 
-#Initializing components
+# Initialize MPU6050
 i2c = I2C(0, sda = Pin(4), scl = Pin(5), freq = 400000)
 imu = MPU6050(i2c, device_addr = 0x68)
 
-#Infinite loop to constantly read values
+# Constantly check lin. acc. and display values
 while True:
 
   #Take readings for linear acceleration in three dimesions
