@@ -10,12 +10,12 @@ imu = MPU6050(i2c, device_addr = 0x68)
 # Constantly check rotation and display values
 while True:
 
-  #Take readings for rotation in three dimesions (Roll, Pitch, Yaw)
-  gx = round(imu.gyro.x, 2) #Rotation around front-back axis
-  gy = round(imu.gyro.y, 2) #Rotation around lef-right axis
-  gz = round(imu.gyro.z, 2) #Rotation around up-down axis
+  # Take readings for rotation in three dimesions (Roll, Pitch, Yaw)
+  gx = round(imu.gyro.x, 2) # Rotation around front-back axis
+  gy = round(imu.gyro.y, 2) # Rotation around lef-right axis
+  gz = round(imu.gyro.z, 2) # Rotation around up-down axis
   
-  #Print results in serial monitor
+  # Print results in serial monitor
   print(" ")
   print("gx = ", gx, " m/s^2", "gy = ", gy, " m/s^2", "gz = ", gz, " m/s^2")
   sleep(0.01)
