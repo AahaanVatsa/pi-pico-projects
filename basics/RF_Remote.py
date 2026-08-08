@@ -8,7 +8,7 @@ rf_B = Pin(20, Pin.IN)
 rf_C = Pin(19, Pin.IN)
 rf_D = Pin(18, Pin.IN)
 
-# Continuously check and display button values
+# Main loop
 while True:
 A = rf_A.value()
 B = rf_B.value()
