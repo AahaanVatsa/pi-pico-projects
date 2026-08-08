@@ -30,7 +30,7 @@ def control_robot(motor_1, motor_2, motor_speed = 32768):
   motor_pin_1.value(m1)
   motor_pin_2.value(m2)
 
-# Constantly measure distance and update buzzer
+# Main loop
 while True:
   distance = get_distance()
   print("Distance: ", distance, " cm")
