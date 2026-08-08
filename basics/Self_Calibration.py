@@ -36,7 +36,7 @@ target_angle = 0.0
 last_time = ticks_ms()
 start_time = ticks_ms()
 
-# Continue moving until the specified duration has passed
+# Main loop
 while ticks_diff(ticks_ms(), start_time) < duration * 1000:
     now = ticks_ms()
     dt_ms = ticks_diff(now, last_time)
