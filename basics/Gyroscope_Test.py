@@ -7,7 +7,7 @@ from machine import Pin, I2C
 i2c = I2C(0, sda = Pin(4), scl = Pin(5), freq = 400000)
 imu = MPU6050(i2c, device_addr = 0x68)
 
-# Constantly check rotation and display values
+# Main loop
 while True:
 
   # Take readings for rotation in three dimesions (Roll, Pitch, Yaw)
