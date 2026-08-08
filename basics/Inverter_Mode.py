@@ -13,7 +13,7 @@ buzz = PWM(Pin(9), freq=1000)
 trig = Pin(15, Pin.OUT)
 echo = Pin(14, Pin.IN)
 
-# Define get_distance()
+# Define function to calculate distance from ultrasonic
 def get_distance():
   trig.low()
   sleep_us(2)
@@ -23,7 +23,7 @@ def get_distance():
   duration = time_pulse_us(echo, 1)
   return int((duration * 0.0343)/2)
 
-# Define control_robot()
+# Define function to move robot
 def control_robot(motor_1, motor_2, motor_speed = 32768):
   enable_1.duty_u16(motor_speed)
   enable_2.duty_u16(motor_speed)
