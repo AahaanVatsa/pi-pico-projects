@@ -7,9 +7,8 @@ from machine import Pin, I2C
 i2c = I2C(0, sda = Pin(4), scl = Pin(5), freq = 400000)
 imu = MPU6050(i2c, device_addr = 0x68)
 
-# Constantly check linear acc. and display values
+# Main loop
 while True:
-
   # Take readings for linear acceleration in three dimesions
   ax = round(imu.accel.x, 2) # Acceleration forward and back
   ay = round(imu.accel.y, 2) # Acceleration left and right
