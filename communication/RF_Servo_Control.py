@@ -26,7 +26,7 @@ sleep(0.75) # Small delay to complete initialization
 
 # Main loop
 while True:
-  # Read values for buttons
+  # Read button states (HIGH/LOW)
   A = rf_A.value()
   B = rf_B.value()
   distance = ultrasonic.get_distance() # Measure distance
