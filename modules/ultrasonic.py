@@ -1,15 +1,19 @@
 
+# Import necessary modules and functions
 from machine import Pin, time_pulse_us
 from time import sleep_us
 
+# Define ultrasonic variables
 trig = None
 echo = None
 
-def init():
+# Define function to initialize ultrasonic
+def init(t, e):
     global trig, echo
-    trig = Pin(15, Pin.OUT)
-    echo = Pin(14, Pin.IN)
+    trig = Pin(t, Pin.OUT)
+    echo = Pin(e, Pin.IN)
 
+# Define function to read distance from ultrasonic
 def get_distance():
     global trig, echo
     trig.low()
