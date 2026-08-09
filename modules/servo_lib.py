@@ -40,3 +40,4 @@ class Servo:
     # Define function to turn off servo PWM
     def deinit(self):
         self.pwm.deinit()
+        
