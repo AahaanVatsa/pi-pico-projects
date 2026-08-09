@@ -8,7 +8,7 @@ from servo_lib import Servo
 servo_motor = Servo(11)
 
 # Initialize ultrasonic sensor
-ultrasonic.init()
+ultrasonic.init(15, 14)
 
 # Define RF remote button pins
 rf_A = Pin(13, Pin.IN)
